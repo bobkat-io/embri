@@ -7,23 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A5C575C32A57AE5D0021CC23 /* embriApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C575C22A57AE5D0021CC23 /* embriApp.swift */; };
+		A5C575C32A57AE5D0021CC23 /* EmbriApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C575C22A57AE5D0021CC23 /* EmbriApp.swift */; };
 		A5C575C52A57AE5D0021CC23 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C575C42A57AE5D0021CC23 /* Persistence.swift */; };
 		A5C575C82A57AE5D0021CC23 /* embri.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A5C575C62A57AE5D0021CC23 /* embri.xcdatamodeld */; };
 		A5C575CA2A57AE5D0021CC23 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C575C92A57AE5D0021CC23 /* ContentView.swift */; };
 		A5C575CC2A57AE5E0021CC23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5C575CB2A57AE5E0021CC23 /* Assets.xcassets */; };
 		A5C575D02A57AE5E0021CC23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5C575CF2A57AE5E0021CC23 /* Preview Assets.xcassets */; };
+		A5C575E02A57BFCB0021CC23 /* floriani.json in Resources */ = {isa = PBXBuildFile; fileRef = A5C575DF2A57BFCB0021CC23 /* floriani.json */; };
+		A5C575E32A57C1340021CC23 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = A5C575E22A57C1340021CC23 /* SwiftyJSON */; };
+		A5C575E62A57C2840021CC23 /* Floriani.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C575E52A57C2840021CC23 /* Floriani.swift */; };
+		A5C575E82A57D27E0021CC23 /* ThreadList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C575E72A57D27E0021CC23 /* ThreadList.swift */; };
+		A5C575EA2A57DE090021CC23 /* brother.json in Resources */ = {isa = PBXBuildFile; fileRef = A5C575E92A57DE090021CC23 /* brother.json */; };
+		A5C575EC2A57DE5F0021CC23 /* Brother.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C575EB2A57DE5F0021CC23 /* Brother.swift */; };
+		A5C575EE2A57DE970021CC23 /* ThreadBrand.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C575ED2A57DE970021CC23 /* ThreadBrand.swift */; };
+		A5C575F02A57DF2C0021CC23 /* BrandThreadSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C575EF2A57DF2C0021CC23 /* BrandThreadSection.swift */; };
+		A5C575F22A57DF8C0021CC23 /* Thread.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C575F12A57DF8C0021CC23 /* Thread.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A5C575BF2A57AE5D0021CC23 /* embri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = embri.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5C575C22A57AE5D0021CC23 /* embriApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = embriApp.swift; sourceTree = "<group>"; };
+		A5C575C22A57AE5D0021CC23 /* EmbriApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbriApp.swift; sourceTree = "<group>"; };
 		A5C575C42A57AE5D0021CC23 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		A5C575C72A57AE5D0021CC23 /* embri.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = embri.xcdatamodel; sourceTree = "<group>"; };
 		A5C575C92A57AE5D0021CC23 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A5C575CB2A57AE5E0021CC23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5C575CD2A57AE5E0021CC23 /* embri.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = embri.entitlements; sourceTree = "<group>"; };
 		A5C575CF2A57AE5E0021CC23 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A5C575DF2A57BFCB0021CC23 /* floriani.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = floriani.json; sourceTree = "<group>"; };
+		A5C575E52A57C2840021CC23 /* Floriani.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Floriani.swift; sourceTree = "<group>"; };
+		A5C575E72A57D27E0021CC23 /* ThreadList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadList.swift; sourceTree = "<group>"; };
+		A5C575E92A57DE090021CC23 /* brother.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = brother.json; sourceTree = "<group>"; };
+		A5C575EB2A57DE5F0021CC23 /* Brother.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Brother.swift; sourceTree = "<group>"; };
+		A5C575ED2A57DE970021CC23 /* ThreadBrand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadBrand.swift; sourceTree = "<group>"; };
+		A5C575EF2A57DF2C0021CC23 /* BrandThreadSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandThreadSection.swift; sourceTree = "<group>"; };
+		A5C575F12A57DF8C0021CC23 /* Thread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thread.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5C575E32A57C1340021CC23 /* SwiftyJSON in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,9 +74,12 @@
 		A5C575C12A57AE5D0021CC23 /* embri */ = {
 			isa = PBXGroup;
 			children = (
-				A5C575C22A57AE5D0021CC23 /* embriApp.swift */,
+				A5C575E42A57C2730021CC23 /* Models */,
+				A5C575C22A57AE5D0021CC23 /* EmbriApp.swift */,
 				A5C575C42A57AE5D0021CC23 /* Persistence.swift */,
 				A5C575C92A57AE5D0021CC23 /* ContentView.swift */,
+				A5C575E72A57D27E0021CC23 /* ThreadList.swift */,
+				A5C575EF2A57DF2C0021CC23 /* BrandThreadSection.swift */,
 				A5C575CB2A57AE5E0021CC23 /* Assets.xcassets */,
 				A5C575CD2A57AE5E0021CC23 /* embri.entitlements */,
 				A5C575C62A57AE5D0021CC23 /* embri.xcdatamodeld */,
@@ -73,6 +94,27 @@
 				A5C575CF2A57AE5E0021CC23 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A5C575DA2A57B5CA0021CC23 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				A5C575DF2A57BFCB0021CC23 /* floriani.json */,
+				A5C575E92A57DE090021CC23 /* brother.json */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		A5C575E42A57C2730021CC23 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A5C575DA2A57B5CA0021CC23 /* data */,
+				A5C575E52A57C2840021CC23 /* Floriani.swift */,
+				A5C575EB2A57DE5F0021CC23 /* Brother.swift */,
+				A5C575ED2A57DE970021CC23 /* ThreadBrand.swift */,
+				A5C575F12A57DF8C0021CC23 /* Thread.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,6 +133,9 @@
 			dependencies = (
 			);
 			name = embri;
+			packageProductDependencies = (
+				A5C575E22A57C1340021CC23 /* SwiftyJSON */,
+			);
 			productName = embri;
 			productReference = A5C575BF2A57AE5D0021CC23 /* embri.app */;
 			productType = "com.apple.product-type.application";
@@ -119,6 +164,9 @@
 				Base,
 			);
 			mainGroup = A5C575B62A57AE5D0021CC23;
+			packageReferences = (
+				A5C575E12A57C1340021CC23 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
 			productRefGroup = A5C575C02A57AE5D0021CC23 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -133,7 +181,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5C575E02A57BFCB0021CC23 /* floriani.json in Resources */,
 				A5C575D02A57AE5E0021CC23 /* Preview Assets.xcassets in Resources */,
+				A5C575EA2A57DE090021CC23 /* brother.json in Resources */,
 				A5C575CC2A57AE5E0021CC23 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,10 +195,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5C575C32A57AE5D0021CC23 /* embriApp.swift in Sources */,
+				A5C575C32A57AE5D0021CC23 /* EmbriApp.swift in Sources */,
+				A5C575F22A57DF8C0021CC23 /* Thread.swift in Sources */,
+				A5C575E82A57D27E0021CC23 /* ThreadList.swift in Sources */,
 				A5C575C52A57AE5D0021CC23 /* Persistence.swift in Sources */,
+				A5C575EE2A57DE970021CC23 /* ThreadBrand.swift in Sources */,
+				A5C575F02A57DF2C0021CC23 /* BrandThreadSection.swift in Sources */,
 				A5C575CA2A57AE5D0021CC23 /* ContentView.swift in Sources */,
 				A5C575C82A57AE5D0021CC23 /* embri.xcdatamodeld in Sources */,
+				A5C575E62A57C2840021CC23 /* Floriani.swift in Sources */,
+				A5C575EC2A57DE5F0021CC23 /* Brother.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +326,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = embri/embri.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"embri/Preview Content\"";
+				DEVELOPMENT_TEAM = ZXSQ3G6SJ4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Embri;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -306,11 +366,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = embri/embri.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"embri/Preview Content\"";
+				DEVELOPMENT_TEAM = ZXSQ3G6SJ4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Embri;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -358,6 +422,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A5C575E12A57C1340021CC23 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A5C575E22A57C1340021CC23 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A5C575E12A57C1340021CC23 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		A5C575C62A57AE5D0021CC23 /* embri.xcdatamodeld */ = {
