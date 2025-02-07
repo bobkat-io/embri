@@ -107,6 +107,7 @@
   { "id": "PF266", "name": "Emerald Green", "color": { "r": 14, "g": 68, "b": 55 }},
   { "id": "PF273", "name": "Key Lime", "color": { "r": 185, "g": 207, "b": 79 }},
   { "id": "PF275", "name": "Mineral Green", "color": { "r": 164, "g": 185, "b": 72 }},
+  { "id": "PF276", "name": "Royal Sage", "color": { "r": 85, "g": 149, "b": 27 }},
   { "id": "PF277", "name": "Green Meadow", "color": { "r": 91, "g": 104, "b": 52 }},
   { "id": "PF283", "name": "Green Gold", "color": { "r": 206, "g": 197, "b": 52 }},
   { "id": "PF284", "name": "Scotch Green", "color": { "r": 178, "g": 159, "b": 32 }},
